@@ -30,6 +30,8 @@ public class Hero {
         double chance = random.nextDouble();
         if (chance < 0.5) {
             opponent.hitPoints -= 10;
+        } else {
+            opponent.hitPoints -= 5;
         }
     }
 
